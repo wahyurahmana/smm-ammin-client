@@ -6,7 +6,7 @@ const checkOrderStore = defineStore({
   actions : {
     getCheck(){
       axios({
-        url : 'http://localhost:3000/check-order',
+        url : 'https://smm-ammin.herokuapp.com/',
         method: 'POST',
         data : {
           orderId : this.orderId

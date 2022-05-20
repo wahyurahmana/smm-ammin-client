@@ -3,7 +3,7 @@ import { defineStore } from 'pinia'
 const getFreeStore = defineStore({
   id: 'getFree',
   state: () => ({
-    baseUrl : 'http://localhost:3000/',
+    baseUrl : 'https://smm-ammin.herokuapp.com/',
     service : "",
     target : ""
   }),
