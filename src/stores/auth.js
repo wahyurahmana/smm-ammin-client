@@ -18,7 +18,7 @@ const authStore = defineStore({
       formData.append('password', this.password)
       formData.append('photo', this.photo)
       axios({
-          url: 'http://localhost:3000/auth/register',
+          url: 'https://smm-ammin.herokuapp.com/auth/register',
           method: 'post',
           data: formData
         })
@@ -33,7 +33,7 @@ const authStore = defineStore({
     },
     login() {
       axios({
-          url: 'http://localhost:3000/auth/login',
+          url: 'https://smm-ammin.herokuapp.com/auth/login',
           method: 'post',
           data: {
             email : this.email,

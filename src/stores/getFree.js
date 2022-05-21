@@ -6,7 +6,7 @@ const getFreeStore = defineStore({
   id: 'getFree',
   state: () => {
     return {
-      baseUrl: 'http://localhost:3000/',
+      baseUrl: 'https://smm-ammin.herokuapp.com/',
       service: "",
       target: ""
     }
